@@ -3,6 +3,6 @@ error_reporting(E_ALL);
 
 include "./TableToXML.php";
 
-$ttx = new TableToXML("localhost", "root", "1453Sa", "gold_sil");
+$ttx = new TableToXML("localhost", "root", "xxx", "shop");
 
-$ttx->generate("star_products", "./urunler.xml", "urun");
+$ttx->generate("star_products", "./products.xml", "product");
