@@ -22,8 +22,6 @@ class TableToXML
   /**
    * Veritabanı bağlantısı
    *
-   * @param name String: Bağlanılacak veritabanı adı.
-   *
    * @return PDO
    */
   public function db()
